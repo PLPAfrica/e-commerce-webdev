@@ -16,12 +16,12 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <span id="dashboard-link"></span>
                 <span id="login-link"></span>   
                 <span id="logout-link"></span>
-                <li id="lg-bag"><a href="cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-bag-shopping"></i></a></li>
                 <a href="#" id="close"><i  class="fa fa-times"></i></a>
             </ul>
         </div>
@@ -32,65 +32,75 @@
     </section>
 
     <section id="page-header" class="about-header">
-        <h2>#knowUs</h2>
-        <p>We've been helping devs for more than a decade</p>
+        <h2>#cartHere</h2>
+        <p>Cart away all our nice products</p>
     </section>
 
-    <section id="about-head" class="section-pl">
-        <img src="img/about/a6.jpg" alt="">
-        <div>
-            <h2>Who We Are</h2>
-            <p>We are an impact organisation whose goal is to drive transformative change for youth in Africa
-            by powering them with relevant Tech skills through the provision of quality and decentralized 
-            Tech training. We are committed to World class education offered in the comfort of your home and 
-            aim to empower African youth with skills that allow you to navigate the job market with confidence.</p>
-            <abbr title="">Africa faces a huge digital skills gap that dilutes economic opportunities and development 
-                caused largely in part by lack of access and in-affordability.</abbr>
-            <br><br>
+    <section id="cart" class="section-pl">
+        <table width="100%">
+            <thead>
+                <td>Remove</td>
+                <td>Images</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.19</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-trash-can"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Patterned Shirts</td>
+                    <td>$140.13</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$140.13</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Traditional T-Shirts</td>
+                    <td>$74.93</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$74.93</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <marquee bgcolor="#f8f8f8" loop="-1" behavior="alternate" scrolldelay="68" scrollamount="-5" width="100%">Africa faces a huge digital skills gap that dilutes economic opportunities and development 
-                caused largely in part by lack of access and in-affordability.</marquee>
-
-            <!-- <div class="scroll-text-container">
-                <div class="scroll-text">
-                    Africa faces a huge digital skills gap that dilutes economic opportunities and development 
-                caused largely in part by lack of access and in-affordability.
-                </div>
-            </div> -->
-        </div>
     </section>
 
-    <section id="about-app" class="section-pl">
-        <h1>Download Our <a href="https://josephjohn.ng/" target="_blank">App</a></h1>
-        <div class="video">
-            <video autoplay muted loop src="img/about/1.mp4"></video>
+    <section id="card-add" class="section-pl">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
         </div>
-    </section>
-
-    <section id="feature" class="section-pl">
-        <div class="fe-box">
-            <img src="img/features/f1.png" alt="">
-            <h6>Free Shipping</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f2.png" alt="">
-            <h6>Online Order</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f3.png" alt="">
-            <h6>Save Money</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f4.png" alt="">
-            <h6>Promotions</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f5.png" alt="">
-            <h6>Happy Sell</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f6.png" alt="">
-            <h6>24/7 Support</h6>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
         </div>
     </section>
 
