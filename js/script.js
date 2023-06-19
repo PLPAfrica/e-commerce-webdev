@@ -1,4 +1,4 @@
-// Setting up Hamburger for Mobile Devices
+// Setting up Hamburger for Mobile Devices.
 const bar = document.getElementById('bar');
 const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
