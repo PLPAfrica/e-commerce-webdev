@@ -619,13 +619,6 @@ footer .copyright{
 }
 
 
-
-
-
-
-
-
-
 /* About Page Starts Here */
 #page-header{
     background-image: url("img/about/banner.png");
@@ -739,9 +732,9 @@ footer .copyright{
 
 #blog .blog-box h1{
     position: absolute;
-    top: -41px;
+    top: -44px;
     left: 0;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     color: #c9c9ce;
     z-index: -9;
